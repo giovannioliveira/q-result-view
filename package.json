@@ -1,0 +1,32 @@
+{
+  "name": "q-result-viewer",
+  "version": "1.0.0",
+  "description": "View results of Quark game matches.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovannioliveira/q-result-view.git"
+  },
+  "author": "Giovanni Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giovannioliveira/q-result-view/issues"
+  },
+  "homepage": "https://github.com/giovannioliveira/q-result-view#readme",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/test/**",
+      "**/docs/**"
+    ],
+    "delay": 2500
+  },
+  "type": "module"
+}
